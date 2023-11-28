@@ -3,7 +3,7 @@
 made by Aulia Nadhirah Yasmin Badrulkamal (18221066)
 
 ## 🖥 Requirements
-1. Phyton3
+1. Python3
 2. cv2
 3. numpy
 
