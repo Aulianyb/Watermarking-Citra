@@ -11,7 +11,6 @@ def generate_watermark(height, width, k, seed):
 
 
 def encode_function(img_path, k, seed): 
-    file_name = img_path.split("/")[-1]
     img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
     img = np.array(img, dtype=np.int16)
     img_width, img_height = img.shape[:2]
