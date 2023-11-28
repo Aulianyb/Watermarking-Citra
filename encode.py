@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import tkinter
 
 def generate_watermark(height, width, k, seed): 
     np.random.seed(seed)
