@@ -15,7 +15,7 @@ print("Welcome to the Image Watermarking program!")
 print("made by Aulia Nadhirah Yasmin B (18221066)\n")
 print("First, prepare the image that will be used for watermarking")
 print("Put the input image in the input folder")
-originalImage = input('''Enter the path of the original image 
+originalImage = input('''Enter the file name of the original image 
 (add .jpg or.png in the end) : ''')
 intensity = int(input("Enter the noise intensity : "))
 seed = int(input("Enter the seed used : "))
